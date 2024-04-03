@@ -476,14 +476,15 @@ p {
     grid-row: 3 / 5;
     grid-column: 2 / 4;
   }
-}
-
-.footer {
+  .footer {
   min-height: 1024px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+}
+
+
 
 /* 1024px */
 @media screen and (min-width:1024px) {
