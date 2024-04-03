@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
-@import url(../fonts/fonts.css);
 @import url(./variables.css);
+@import url(../fonts/fonts.css);
+
 
 * {
   box-sizing: border-box;
@@ -409,8 +409,8 @@ p {
 
   .sovety {
     display: grid;
-    grid-template-columns: 236px 472px;
-    grid-template-rows: auto;
+    grid-template-columns: 236px minmax(472px, auto);
+    grid-template-rows: max-content;
     gap: 20px;
 
   }
@@ -418,6 +418,7 @@ p {
   .sovety__list {
     margin-top: 0;
     margin-bottom: 0;
+    grid-column: 2/ 3;
   }
 
   .sovety__title {
@@ -478,6 +479,7 @@ p {
 }
 
 .footer {
+  min-height: 1024px;
   display: flex;
   justify-content: center;
   align-items: center;
