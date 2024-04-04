@@ -16,3 +16,26 @@
   --button-color: #FF0070;
   --main-sovet-color: #000028;
 }
+
+/* 
+--main-font-family: ;
+--main-gap: ;
+--main-text-size: ;
+--main-line-height: ;
+--main-text-color: ;
+--main-heading-color: ;
+--section-heading-color: ;
+--header-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+--header-logo-color: ;
+--main-bg-color: ;
+--accent-color: ;
+--nav-color: ;
+--footer-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);;
+--footer-logo-color: ;
+
+@media (width >=768px){
+  --main-gap: ;
+--header-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+--footer-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
+*/

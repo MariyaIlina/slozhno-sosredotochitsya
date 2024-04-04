@@ -2,11 +2,6 @@
 @import url(./variables.css);
 @import url(../fonts/fonts.css);
 
-
-* {
-  box-sizing: border-box;
-}
-
 .page {
   padding: 0px;
   margin: 0 auto;
@@ -175,7 +170,6 @@
 
 .main {
   display: block;
-  /* min-height: 5355px; */
   font-family: var(--accent-font-family);
   font-size: var(--accent-font-size);
   margin-top: 15px;
@@ -476,12 +470,13 @@ p {
     grid-row: 3 / 5;
     grid-column: 2 / 4;
   }
+
   .footer {
-  min-height: 1024px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    min-height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 

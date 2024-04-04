@@ -9,9 +9,6 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
-
-:root.theme-dark {
   --accent-color: #FF0070;
   --title-color: #db00ff;
   --title-text-color: #000028;
@@ -24,10 +21,6 @@
   --background-image: url('../images/cover-image-dark.png');
   --button-color: #FF0070;
   --main-sovet-color: #000028;
-
-
 }
 
-/* .theme-dark .page {}
-
-.theme-light .page {} */
+/* переписать переменные из variables которые зависят от выбранной темы */
